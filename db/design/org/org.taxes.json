@@ -1,0 +1,23 @@
+[
+    {
+        "_id": "tx:TPS",
+        "code": "TPS",
+        "defaultRate": 0.05,
+        "orgId": "org:simon",
+        "i18n": "Taxe sur les produits et services"
+    },
+    {
+        "_id": "tx:TVQ",
+        "code": "TVQ",
+        "defaultRate": 0.09975,
+        "orgId": "org:simon",
+        "i18n": "Taxe de vente du Québec"
+    },
+    {
+        "_id": "tx:TVQ",
+        "code": "TVH",
+        "defaultRate": 0.14975,
+        "orgId": "org:simon",
+        "i18n": "Taxe de vente harmonisée"
+    }
+]

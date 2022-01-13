@@ -1,0 +1,34 @@
+[
+    {
+        "_id": "sheet:1",
+        "orgId": "org:paid-active",
+        "userId": "google-oauth2|103689881958333096958",
+        "label": "Sheet 0",
+        "approbations": [
+            {
+                "user": "Syrine",
+                "level": 1,
+                "approved": true
+            },
+            {
+                "user": "Wassim",
+                "level": 1,
+                "bypass": true
+            }
+        ],
+        "status": "new",
+        "exported": true,
+        "creationDate": "2018-05-02T15:02:40.628Z",
+        "submittedOn": "2018-05-23T10:10:00.628Z",
+        "attachments": [
+            {
+                "ext_id": "",
+                "filename": "file1.png",
+                "mime_type": "image/png",
+                "ref_type": "s3",
+                "url": "https://..."
+            }
+        ],
+        "total": 27.95
+    }
+]

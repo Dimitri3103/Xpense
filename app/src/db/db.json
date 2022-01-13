@@ -1,0 +1,1177 @@
+{
+  "expenses": [],
+  "groups": [
+    {
+      "id": "7827db70-c55a-470e-b068-ecca6585c578",
+      "name": "Consultant"
+    },
+    {
+      "id": "25feccf3-f057-405e-99b5-f31bfa244589",
+      "name": "Finance"
+    }
+  ],
+  "org": [
+    {
+      "id": "org:paid-active",
+      "name": "Org Paid and Active zzzz",
+      "contact": {
+        "name": "John Doe",
+        "phone": "5555555555",
+        "email": "foo@example.com"
+      },
+      "status": "active"
+    },
+    {
+      "id": "org:trial",
+      "name": "Org on Trial",
+      "contact": {
+        "name": "Philippe Trial",
+        "phone": "5555555555",
+        "email": "bar@example.com"
+      },
+      "status": "active"
+    },
+    {
+      "id": "org:trial-ended",
+      "name": "Org on Ended Trial",
+      "contact": {
+        "name": "Philippe E. D. Trial",
+        "phone": "5555555555",
+        "email": "boo@example.com"
+      },
+      "status": "inactive"
+    }
+  ],
+  "expenseTypes": [
+    {
+      "id": "expt:km",
+      "code": "524144",
+      "type": "km",
+      "multiplicator": 2.5,
+      "i18n": {
+        "fr": {
+          "name": "Kilomètre"
+        },
+        "en": {
+          "name": "Kilometer"
+        }
+      }
+    },
+    {
+      "id": "expt:lunch",
+      "code": "123456",
+      "type": "money",
+      "multiplicator": 0.25,
+      "i18n": {
+        "fr": {
+          "name": "Déjeuner"
+        },
+        "en": {
+          "name": "Lunch"
+        }
+      }
+    },
+    {
+      "id": "expt:gasoline",
+      "code": "987654",
+      "type": "money",
+      "multiplicator": 0.2,
+      "i18n": {
+        "fr": {
+          "name": "Essence"
+        },
+        "en": {
+          "name": "Gasoline"
+        }
+      }
+    }
+  ],
+  "sheets": [
+    {
+      "id": "sheet:1",
+      "orgId": "FA-202101",
+      "userId": "mbrhouma@bulldozerinc.com",
+      "label": "Sheet 1",
+      "approbations": [
+        {
+          "user": "Syrine",
+          "level": 1,
+          "approved": true
+        },
+        {
+          "user": "Wassim",
+          "level": 1,
+          "bypass": true
+        }
+      ],
+      "status": "declined",
+      "exported": true,
+      "creationDate": "03/02/2021",
+      "submittedOn": "2018-05-23",
+      "attachments": [
+        {
+          "extid": "",
+          "filename": "file1.png",
+          "mime_type": "image/png",
+          "ref_type": "s3",
+          "url": "https://..."
+        }
+      ],
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:2",
+      "orgId": "FA-202101",
+      "userId": "houssem@bulldozerinc.com",
+      "label": "Sheet 2",
+      "approbations": [
+        {
+          "user": "Syrine",
+          "level": 1,
+          "approved": true
+        },
+        {
+          "user": "Wassim",
+          "level": 1,
+          "approved": false
+        }
+      ],
+      "status": "pending",
+      "creationDate": "03/02/2021",
+      "submittedOn": "2020-01-01",
+      "archived": true,
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:3",
+      "orgId": "FA-202101",
+      "userId": "remi@bulldozerinc.com",
+      "label": "Sheet 3",
+      "approbations": [
+        {
+          "user": "Syrine"
+        },
+        {
+          "user": "Wassim"
+        }
+      ],
+      "status": "approved",
+      "creationDate": "03/02/2021",
+      "submittedOn": "2020-01-01",
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:4",
+      "orgId": "FA-202101",
+      "userId": "houssem@bulldozerinc.com",
+      "label": "Sheet 4",
+      "approbations": [
+        {
+          "user": "Wassim",
+          "level": 1
+        }
+      ],
+      "status": "declined",
+      "exported": false,
+      "creationDate": "03/02/2021",
+      "submittedOn": "2018-04-20",
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:5",
+      "orgId": "FA-202101",
+      "userId": "remi@bulldozerinc.com",
+      "label": "Sheet 5",
+      "approbations": [
+        {
+          "user": "Syrine",
+          "level": 1,
+          "approved": true
+        },
+        {
+          "user": "Wassim",
+          "level": 1,
+          "bypass": true
+        }
+      ],
+      "status": "pending",
+      "exported": true,
+      "creationDate": "03/02/2021",
+      "submittedOn": "2018-05-23",
+      "attachments": [
+        {
+          "extid": "",
+          "filename": "file1.png",
+          "mime_type": "image/png",
+          "ref_type": "s3",
+          "url": "https://..."
+        }
+      ],
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:6",
+      "orgId": "FA-202101",
+      "userId": "mbrhouma@bulldozerinc.com",
+      "label": "Sheet 6",
+      "approbations": [
+        {
+          "user": "Syrine",
+          "level": 1,
+          "approved": true
+        },
+        {
+          "user": "Wassim",
+          "level": 1,
+          "approved": false
+        }
+      ],
+      "status": "pending",
+      "creationDate": "03/02/2021",
+      "submittedOn": "2020-01-01",
+      "archived": true,
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:7",
+      "orgId": "FA-202101",
+      "userId": "remi@bulldozerinc.com",
+      "label": "Sheet 7",
+      "approbations": [
+        {
+          "user": "Syrine"
+        },
+        {
+          "user": "Wassim"
+        }
+      ],
+      "status": "approved",
+      "creationDate": "03/02/2021",
+      "submittedOn": "2020-01-01",
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:8",
+      "orgId": "FA-202101",
+      "userId": "houssem@bulldozerinc.com",
+      "label": "Sheet 8",
+      "approbations": [
+        {
+          "user": "Wassim",
+          "level": 1
+        }
+      ],
+      "status": "declined",
+      "exported": false,
+      "creationDate": "03/02/2021",
+      "submittedOn": "2018-04-20",
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:9",
+      "orgId": "FA-202101",
+      "userId": "mbrhouma@bulldozerinc.com",
+      "label": "Sheet 9",
+      "approbations": [
+        {
+          "user": "Syrine",
+          "level": 1,
+          "approved": true
+        },
+        {
+          "user": "Wassim",
+          "level": 1,
+          "bypass": true
+        }
+      ],
+      "status": "pending",
+      "exported": true,
+      "creationDate": "03/02/2021",
+      "submittedOn": "2018-05-23",
+      "attachments": [
+        {
+          "extid": "",
+          "filename": "file1.png",
+          "mime_type": "image/png",
+          "ref_type": "s3",
+          "url": "https://..."
+        }
+      ],
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:10",
+      "orgId": "FA-202101",
+      "userId": "houssem@bulldozerinc.com",
+      "label": "Sheet 10",
+      "approbations": [
+        {
+          "user": "Syrine",
+          "level": 1,
+          "approved": true
+        },
+        {
+          "user": "Wassim",
+          "level": 1,
+          "approved": false
+        }
+      ],
+      "status": "pending",
+      "creationDate": "03/02/2021",
+      "submittedOn": "2020-01-01",
+      "archived": true,
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:11",
+      "orgId": "FA-202101",
+      "userId": "houssem@bulldozerinc.com",
+      "label": "Sheet 11",
+      "approbations": [
+        {
+          "user": "Syrine"
+        },
+        {
+          "user": "Wassim"
+        }
+      ],
+      "status": "approved",
+      "creationDate": "03/02/2021",
+      "submittedOn": "2020-01-01",
+      "total": "150,00€"
+    },
+    {
+      "id": "sheet:12",
+      "orgId": "FA-202101",
+      "userId": "mbrhouma@bulldozerinc.com",
+      "label": "Sheet 12",
+      "approbations": [
+        {
+          "user": "Wassim",
+          "level": 1
+        }
+      ],
+      "status": "declined",
+      "exported": false,
+      "creationDate": "03/02/2021",
+      "submittedOn": "2018-04-20",
+      "total": "150,00€"
+    }
+  ],
+  "currencies": [
+    {
+      "code": "CAD",
+      "format": "$(x:0 000,00) $",
+      "nameFR": "Dollar Canadien",
+      "nameEN": "Canadian Dollars"
+    },
+    {
+      "code": "TND",
+      "format": "$(x:0 000,00) DT",
+      "nameFR": "Dinar tunisien",
+      "nameEN": "Tunisian Dinar"
+    },
+    {
+      "code": "USD",
+      "format": "$ $(x:0'000,00)",
+      "nameFR": "Dollar Américain",
+      "nameEN": "American Dollars"
+    }
+  ],
+  "taxes": [
+    {
+      "id": "tx:tps",
+      "orgId": "org:paid-active",
+      "code": "TPS",
+      "defaultRate": 0.05,
+      "i18n": {
+        "fr": {
+          "name": "Taxe sur les produits et services"
+        },
+        "en": {
+          "name": "Goods and services tax"
+        }
+      }
+    },
+    {
+      "id": "tx:tvh",
+      "orgId": "org:paid-active",
+      "code": "TVH",
+      "i18n": {
+        "fr": {
+          "name": "Taxe de vente harmonisée"
+        },
+        "en": {
+          "name": "Harmonized sales tax"
+        }
+      }
+    },
+    {
+      "id": "tx:tvq",
+      "orgId": "org:paid-active",
+      "code": "TVQ",
+      "i18n": {
+        "fr": {
+          "name": "Taxe de vente du Québec"
+        },
+        "en": {
+          "name": "Québec sales tax"
+        }
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "userId": "",
+      "email": "",
+      "name": "",
+      "nickname": "",
+      "lastName": "",
+      "firstName": "",
+      "picture": "",
+      "defaultCurrencyId": "",
+      "phoneNumber": "",
+      "organizations": ""
+    }
+  ],
+  "roles": [
+    {
+      "code": "admin",
+      "i18n": {
+        "fr": {
+          "name": "Administrateur"
+        },
+        "en": {
+          "name": "Administrator"
+        }
+      },
+      "rights": [
+        "org-edit",
+        "org-invite",
+        "group-edit",
+        "tax-edit",
+        "expense-type-edit",
+        "sheet-archive",
+        "sheet-export",
+        "sheet-create",
+        "sheet-edit-submitted"
+      ]
+    },
+    {
+      "code": "supervisor",
+      "i18n": {
+        "fr": {
+          "name": "Superviseur"
+        },
+        "en": {
+          "name": "Supervisor"
+        }
+      },
+      "rights": [
+        "org-edit",
+        "org-invite",
+        "group-edit",
+        "tax-edit",
+        "expense-type-edit",
+        "sheet-create",
+        "sheet-edit-submitted"
+      ]
+    },
+    {
+      "code": "User",
+      "i18n": {
+        "fr": {
+          "name": "Utilisateur"
+        },
+        "en": {
+          "name": "User"
+        }
+      },
+      "rights": [
+        "sheet-create"
+      ]
+    }
+  ],
+  "uploads": [
+    {
+      "file": {
+        "type": "",
+        "format": ""
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "mbrhouma@bulldozerinc.com",
+      "first_name": "Moncef",
+      "last_name": "Belhaj Rhouma",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "approbation-workflow": "$id-équipe-tunis",
+      "picture": "10.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        10,
+        23
+      ],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "houssem@bulldozerinc.com",
+      "first_name": "Houssem",
+      "last_name": "Ben Arbia",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "11.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "utilisateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "remi@bulldozerinc.com",
+      "first_name": "Remi",
+      "last_name": "Ferland",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "12.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        3
+      ],
+      "supervisor": null
+    },
+    {
+      "id": "4",
+      "first_name": "Moncef",
+      "last_name": "Belhaj Rhouma",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "approbation-workflow": "$id-équipe-tunis",
+      "picture": "10.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        10,
+        23
+      ],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "5",
+      "first_name": "Houssem",
+      "last_name": "Ben Arbia",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "11.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "utilisateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "6",
+      "first_name": "Remi",
+      "last_name": "Ferland",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "12.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        3
+      ],
+      "supervisor": null
+    },
+    {
+      "id": "7",
+      "first_name": "Moncef",
+      "last_name": "Belhaj Rhouma",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "approbation-workflow": "$id-équipe-tunis",
+      "picture": "10.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        10,
+        23
+      ],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "8",
+      "first_name": "Houssem",
+      "last_name": "Ben Arbia",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "11.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "utilisateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "9",
+      "first_name": "Remi",
+      "last_name": "Ferland",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "12.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        3
+      ],
+      "supervisor": null
+    },
+    {
+      "id": "10",
+      "first_name": "Moncef",
+      "last_name": "Belhaj Rhouma",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "approbation-workflow": "$id-équipe-tunis",
+      "picture": "10.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        10,
+        23
+      ],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "11",
+      "first_name": "Houssem",
+      "last_name": "Ben Arbia",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "11.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "utilisateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [],
+      "supervisor": "remi@bulldozerinc.com"
+    },
+    {
+      "id": "12",
+      "first_name": "Remi",
+      "last_name": "Ferland",
+      "password": "5F4DCC3B5AA765D61D8327DEB882CF99",
+      "picture": "12.jpg",
+      "total": "150 $",
+      "organizations": [
+        123,
+        456
+      ],
+      "created_on": "2020-12-15 10:02:40",
+      "role": "administrateur",
+      "groups": [
+        1,
+        2,
+        5
+      ],
+      "preferences": "",
+      "locations": [
+        {
+          "name": "Xyz",
+          "code": "45611",
+          "groups": [
+            1,
+            2,
+            3
+          ],
+          "taxes": [
+            {
+              "code": "3514",
+              "rate": 10,
+              "name": "Azerty",
+              "translation": [
+                {
+                  "name": "Azerty",
+                  "lang": "FR"
+                },
+                {
+                  "name": "Qwerty",
+                  "lang": "EN"
+                }
+              ],
+              "active_dates": [
+                "2020-12-15",
+                "2020-12-30"
+              ]
+            }
+          ]
+        }
+      ],
+      "expense_types": [
+        3
+      ],
+      "supervisor": null
+    }
+  ]
+}

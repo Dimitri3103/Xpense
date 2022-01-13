@@ -1,0 +1,32 @@
+[
+    {
+        "_id": "expt:lunch",
+        "code": "123456",
+        "type": "complex",
+        "orgId": "org:paid-active",
+        "multiplicator": 0.25,
+        "i18n":  "Déjeuner",
+        "attachmentRequired": true,
+        "status": "active"
+    },
+    {
+        "_id": "expt:km",
+        "code": "524144",
+        "type": "complex",
+        "multiplicator": 2.5,
+        "orgId": "org:paid-active",
+        "i18n":  "Kilomètre",
+        "attachmentRequired": false,
+        "status": "active"
+    },
+    {
+        "_id": "expt:gasoline",
+        "code": "987654",
+        "type": "complex",
+        "multiplicator": 0.2,
+        "orgId": "org:trial",
+        "i18n":  "Essence",
+        "attachmentRequired": true,
+        "status": "archived"
+    }
+]

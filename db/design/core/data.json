@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "org:simon",
+    "name": "Organisation de Simon",
+    "address": "22 Rue Jbal Bargou Bab Bhar Tunis",
+    "contact": {
+      "name": "Simon Dimitri NGOUTOUGA",
+      "phone": "+21650119915",
+      "email": "ndimitri.ngoutouga1@gmail.com"
+    },
+    "options": {
+      "allow_ask_join": false
+    },
+    "subscription": "paid",
+    "strype_data": {},
+    "status": "active"
+  }
+]

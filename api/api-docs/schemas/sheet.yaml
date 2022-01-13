@@ -1,0 +1,31 @@
+CreateSheet:
+  type: object
+  properties:
+    name:
+      type: string
+Sheets:
+  type: array
+  items:
+    $ref: './group.yaml#/Sheet'
+Sheet:
+  type: object
+  properties:
+    id:
+      type: string
+    type:
+      type: string
+    orgId:
+      type: string
+    userId:
+      type: string
+    label:
+      type: string
+    creationDate:
+      type: date
+    submittedOn:
+      type: date
+    exported:
+      type: boolean
+    total:
+      type: integer
+   

@@ -1,0 +1,16 @@
+[
+    {
+        "_id": "inv:1",
+        "email": "simon-dimitri1@gmail.com",
+        "roleId": "employee",
+        "groupId": "grp:6a08c9f5077e56f0c48d8e3ae002f05a",
+        "orgId": "org:simon"
+    },
+    {
+        "_id": "inv:2",
+        "email": "simon-dimitri2@gmail.com",
+        "roleId": "employee",
+        "groupId": "grp:6a08c9f5077e56f0c48d8e3ae0031d95",
+        "orgId": "org:simon"
+    }
+]

@@ -1,0 +1,9 @@
+
+{
+  "_id": "grp:$id",
+  "name": "Groupe 1",
+  "members": [
+  ],
+  "available-expense-types": [
+  ]
+}

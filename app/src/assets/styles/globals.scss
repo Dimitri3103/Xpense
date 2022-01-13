@@ -1,0 +1,47 @@
+@import "settings/fonts";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+button:focus {
+  outline: 0;
+}
+
+.line {
+  text-align: center;
+}
+.line {
+  display: inline-block;
+  position: relative;
+}
+.line span:before,
+.line span:after {
+  content: "";
+  position: absolute;
+  background: #9babc58c;
+  height: 1px;
+  top: 50%;
+  width: 75px;
+}
+.line span:before {
+  right: 100%;
+}
+.line span:after {
+  left: 100%;
+}
+.or {
+  font: normal normal normal 14px/19px Open Sans;
+  color: #9babc58c;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+}
